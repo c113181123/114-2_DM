@@ -161,9 +161,9 @@
 
 ### 專題 Repo 建立方式
 
-1. 前往專題模板：`https://github.com/pychang-ai/114-2_DataMining-project-template`
+1. 前往專題模板：`https://github.com/pychang-ai/114-2_DM-project-template`
 2. 點選「**Use this template**」>「**Create a new repository**」
-3. Repository name 填入 `114-2_DataMining-G01`（替換為組別編號）
+3. Repository name 填入 `114-2_DM-G01`（替換為組別編號）
 4. 設為 **Public**，點選 **Create repository**
 5. 進入 Settings > Collaborators > Add people，依序加入：
    - 所有組員（權限：Write）
@@ -283,8 +283,8 @@ git config --global user.email "你的Email"
 2. Clone 你的 Fork 到本機：
 
 ```bash
-git clone https://github.com/你的帳號/114-2_DataMining.git
-cd 114-2_DataMining
+git clone https://github.com/你的帳號/114-2_DM.git
+cd 114-2_DM
 ```
 
 ### 每週作業流程
@@ -320,13 +320,13 @@ Step 3：到 GitHub 網頁發 Pull Request
 
 當老師更新了課程 Repo，你的 Fork 不會自動更新。請依照以下步驟取得最新版本：
 
-1. 進入你的 Fork 頁面：`https://github.com/你的帳號/114-2_DataMining`
+1. 進入你的 Fork 頁面：`https://github.com/你的帳號/114-2_DM`
 2. 頁面上方會出現提示：`This branch is X commits behind pychang-ai:main`
 3. 點選「**Sync fork**」按鈕
 4. 點選「**Update branch**」
 5. 回到本機，執行：
    ```bash
-   cd 114-2_DataMining
+   cd 114-2_DM
    git pull origin main
    ```
 
@@ -370,7 +370,7 @@ Step 3：到 GitHub 網頁發 Pull Request
 ## 作業資料夾結構
 
 ```
-114-2_DataMining/
+114-2_DM/
 ├── README.md
 ├── my-topics/             ← 個人題目探索（第 4-5 週）
 │   ├── topic1_xxx.md
